@@ -37,10 +37,11 @@ let age = prompt("Please enter your age...")
 age>20
     ? alert(`Welcome ${usersName}, Continue`)
     : alert(`Sorry ${usersName}, you do not have enough age`)
-    */
+///////////////////
     let login = prompt("Please enter your login...")
     let pass = prompt(" and your password...")
     login == "zaza123" && pass == "999"
         ? alert(`Welcome`)
-        : alert(`try again`)
-       
+        : alert(`try again`)*/
+       const agree = confirm("Are you sure you like to delete?")
+       alert(agree ? "File deleted" : "File nor deleted")
