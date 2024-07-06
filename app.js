@@ -30,3 +30,10 @@ let v = 5
 //Numer(a)
 //(+a) 
 console.log(+v)
+
+//////////////////
+let usersName = prompt("Please enter your name...")
+let age = prompt("Please enter your age...")
+age>20
+    ? alert(`Welcome ${usersName}, Continue`)
+    : alert(`Sorry ${usersName}, you do not have enough age`)
