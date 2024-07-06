@@ -26,7 +26,7 @@ let userName = prompt("Enter your name...")
 alert(`"Welcome ${userName}`)
 //////////////////////
 let v = 5
-///////stribi numbere çevirmek
+///////string numbere çevirmek
 //Numer(a)
 //(+a) 
 console.log(+v)
