@@ -1,4 +1,4 @@
-let isDarkMode = true, isMarry = false, isPassed, hasCar = true
+/*let isDarkMode = true, isMarry = false, isPassed, hasCar = true
 const userId = "12345zxcvb", userGlobalId = "demo123"
 console.log(userId)
 ///////////////////////////////
@@ -37,3 +37,10 @@ let age = prompt("Please enter your age...")
 age>20
     ? alert(`Welcome ${usersName}, Continue`)
     : alert(`Sorry ${usersName}, you do not have enough age`)
+    */
+    let login = prompt("Please enter your login...")
+    let pass = prompt(" and your password...")
+    login == "zaza123" && pass == "999"
+        ? alert(`Welcome`)
+        : alert(`try again`)
+       
