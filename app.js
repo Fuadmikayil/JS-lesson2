@@ -21,3 +21,6 @@ num > 0
         :console.log("Num is zero")
 
 ///////////
+alert("Welcome To Facbook");
+let userName = prompt("Enter your name...")
+alert(`"Welcome ${userName}`)
