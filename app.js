@@ -11,3 +11,13 @@ let login = "zaza123", pass = "777";
 const result = login === "zaza12345" && pass === "777"
 console.log(result ? "Welcome" : "Try again")
 result ? console.log("Welcome") : console.log("Try again")
+///////////////////////////
+let num= 10
+
+num > 0
+    ? console.log("Num is positive")
+    : num !=0
+        ? console.log("Num is Negative")
+        :console.log("Num is zero")
+
+///////////
